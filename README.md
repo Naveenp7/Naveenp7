@@ -1,5 +1,27 @@
 # 💫 About Me:
-👋 Hi, I'm Naveen — a passionate Software Developer and AI & Data Science enthusiast who loves turning ideas into practical, real-world applications.<br><br>🔭 I’m currently working on full-stack applications, AI-powered tools, and computer vision projects that solve everyday problems.<br><br>🤝 I’m looking to collaborate on AI/ML projects, web applications, and hackathon-driven problem statements.<br><br>🧠 I’m looking for help with scaling AI systems, optimizing ML models, and building production-ready architectures.<br><br>🌱 I’m currently learning advanced AI workflows, system design, and mobile app development with Flutter.<br><br>💬 Ask me about AI, computer vision, full-stack development, Firebase, or building hackathon-ready projects.<br><br>⚡ Fun fact: I enjoy building solutions not just for demos, but for real use — whether it’s for my home, college, or local community.<br>
+### Hi there 👋 I'm Naveen — building AI-powered and full-stack solutions with real-world impact.
+## 🚀 Featured Projects
+
+### 🏋️ Gym Management System
+A full-stack gym management platform built with **React, Material-UI, and Firebase**, enabling user management, memberships, and real-time data handling.  
+🔗 https://github.com/Naveenp7/Gym-Management
+
+### 💰 Finance Manager
+A modern financial management application for shops, focused on **transaction tracking, reporting, and analytics**.  
+🔗 https://github.com/Naveenp7/Finance-Manager
+
+### 👁️ MediaPipe Real-Time Computer Vision Demos
+A collection of real-time computer vision applications using **MediaPipe and OpenCV**, showcasing gesture recognition and live vision processing.  
+🔗 https://github.com/Naveenp7/MediaPipe-Real-Time-Computer-Vision-Demos
+
+### 🏏 Hand Cricket Game with OpenCV
+An interactive hand-cricket game that detects finger gestures using a webcam and computer vision.  
+🔗 https://github.com/Naveenp7/Hand-Cricket-Game-with-OpenCV
+
+### ⚡ Electricity Management Software
+An AI-assisted electricity monitoring and analysis platform with usage insights and smart recommendations.  
+🔗 https://github.com/Naveenp7/Electricity-management-software
+
 
 
 ## 🌐 Socials:

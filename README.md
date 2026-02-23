@@ -8,7 +8,7 @@ A full-stack gym management platform built with **React, Material-UI, and Fireba
 
 ### 💰 Finance Manager
 A modern financial management application for shops, focused on **transaction tracking, reporting, and analytics**.  
-🔗 https://github.com/Naveenp7/Finance-Manager
+🔗 https://github.com/Naveenp7/Finance-Manger
 
 ### 👁️ MediaPipe Real-Time Computer Vision Demos
 A collection of real-time computer vision applications using **MediaPipe and OpenCV**, showcasing gesture recognition and live vision processing.  

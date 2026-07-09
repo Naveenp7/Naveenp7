@@ -83,17 +83,10 @@ I don't just write ML code — I design the **architecture around the problem**:
 ### 📊 GitHub Stats
 
 <p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Naveenp7&show_icons=true&theme=tokyonight&hide_border=true&count_private=false" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naveenp7&layout=compact&theme=tokyonight&hide_border=true" />
+<img src="./github-metrics.svg" alt="Naveen's GitHub metrics" />
 </p>
 
-<p align="center">
-<img src="https://nirzak-streak-stats.vercel.app/?user=Naveenp7&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Naveenp7&theme=tokyonight&no-frame=true&margin-w=4&row=1" />
-</p>
+<sub>Auto-generated daily via GitHub Actions (<a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>) — no third-party uptime dependency.</sub>
 
 ---
 

@@ -19,6 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           committer_message: "chore: update metrics"
+          debug: yes
 
           # --- core stats ---
           base: header, activity, community, repositories, metadata

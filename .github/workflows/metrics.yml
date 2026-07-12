@@ -1,28 +1,18 @@
 # .github/workflows/metrics.yml
 # Docs: https://github.com/lowlighter/metrics#-documentation
 #
-# ⚠️ REQUIRED SETUP (this is what was causing the "Unexpected error" on
-# "Recent coding habits" and "Recent activity"):
-#
-# 1. Go to https://github.com/settings/tokens  → "Generate new token (classic)"
-#    (NOT a fine-grained token — plugin_languages and plugin_activity need
-#    classic-PAT scopes to read commit/language data across all your repos)
-# 2. Scopes to check:
-#      - repo            (full control — needed to read private repo languages)
-#      - read:user
-#      - read:org         (only if you want org repos counted)
-# 3. Copy the token, go to your Naveenp7/Naveenp7 repo → Settings → Secrets
-#    and variables → Actions → New repository secret
+# SETUP (one-time):
+# 1. github.com/settings/tokens -> "Generate new token (classic)"
+#    Scopes: repo, read:user
+# 2. Repo -> Settings -> Secrets and variables -> Actions -> New secret
 #      Name:  METRICS_TOKEN
 #      Value: <paste the classic PAT>
-# 4. This workflow references ${{ secrets.METRICS_TOKEN }} — make sure the
-#    secret name matches exactly.
 
 name: Metrics
 on:
   schedule:
-    - cron: "0 3 * * *"     # once a day, low footprint
-  workflow_dispatch:         # lets you trigger it manually from the Actions tab
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
 jobs:
   github-metrics:
@@ -35,36 +25,36 @@ jobs:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # ── Layout: calendar first, then community stats, then languages/activity
-          config_order: isocalendar, base, activity, languages
+          # ── Only sections with real, non-zero data.
+          # (activity/community/repositories sections are dropped on purpose —
+          # they're the source of the "0 Pull requests", "0 Sponsors" etc. rows,
+          # and metrics.yml can't hide individual rows within a section, only
+          # the whole section.)
+          base: header
+          config_order: header, isocalendar, repositories, languages
 
-          # ── Isometric contribution calendar (this is the one you want up top)
+          # ── Isometric contribution calendar, right under your header
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # ── Core profile stats (commits, PRs, issues, repos)
-          plugin_base: yes
-          plugin_lines: yes
-          plugin_lines_sections: base
+          # ── Real projects instead of a zero-heavy repo-stats block
+          plugin_repositories: yes
+          plugin_repositories_featured: >-
+            Naveenp7/Cost-Efficient-RAG,
+            Naveenp7/llm-judge,
+            Naveenp7/Movie-Seat-Manager,
+            Naveenp7/Crowd-Detection
 
-          # ── Recent activity (this was erroring)
-          plugin_activity: yes
-          plugin_activity_visibility: all
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-
-          # ── Most-used languages / recent coding habits (this was erroring)
+          # ── Most-used languages (real data, no error)
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15      # prevents timeout w/ 100+ repos
+          plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
-          plugin_languages_ignored: html, css, jupyter notebook
-          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 6
           plugin_languages_threshold: 2%
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_load: 300
-          plugin_languages_recent_days: 14
 
-          # ── Misc
-          plugin_achievements: no    # optional, can add later once base is stable
+          # ── Dropped: plugin_habits ("Recent coding habits") and
+          # plugin_activity ("Recent activity") — both were erroring and
+          # neither adds signal a recruiter cares about. Can re-add later
+          # once confirmed stable with the classic PAT above.

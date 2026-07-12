@@ -1,12 +1,28 @@
-name: GitHub Metrics
+# .github/workflows/metrics.yml
+# Docs: https://github.com/lowlighter/metrics#-documentation
+#
+# ⚠️ REQUIRED SETUP (this is what was causing the "Unexpected error" on
+# "Recent coding habits" and "Recent activity"):
+#
+# 1. Go to https://github.com/settings/tokens  → "Generate new token (classic)"
+#    (NOT a fine-grained token — plugin_languages and plugin_activity need
+#    classic-PAT scopes to read commit/language data across all your repos)
+# 2. Scopes to check:
+#      - repo            (full control — needed to read private repo languages)
+#      - read:user
+#      - read:org         (only if you want org repos counted)
+# 3. Copy the token, go to your Naveenp7/Naveenp7 repo → Settings → Secrets
+#    and variables → Actions → New repository secret
+#      Name:  METRICS_TOKEN
+#      Value: <paste the classic PAT>
+# 4. This workflow references ${{ secrets.METRICS_TOKEN }} — make sure the
+#    secret name matches exactly.
 
+name: Metrics
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs once a day at midnight UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
-  push:
-    branches:
-      - main                # regenerates whenever you push to the profile repo
+    - cron: "0 3 * * *"     # once a day, low footprint
+  workflow_dispatch:         # lets you trigger it manually from the Actions tab
 
 jobs:
   github-metrics:
@@ -16,33 +32,39 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
-          committer_message: "chore: update metrics"
-          debug: yes
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          # --- core stats ---
-          base: header, activity, community, repositories, metadata
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 0%
+          # ── Layout: calendar first, then community stats, then languages/activity
+          config_order: isocalendar, base, activity, languages
 
-          # --- contribution calendar (isometric, looks great) ---
+          # ── Isometric contribution calendar (this is the one you want up top)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # --- recent activity feed ---
+          # ── Core profile stats (commits, PRs, issues, repos)
+          plugin_base: yes
+          plugin_lines: yes
+          plugin_lines_sections: base
+
+          # ── Recent activity (this was erroring)
           plugin_activity: yes
+          plugin_activity_visibility: all
           plugin_activity_limit: 5
           plugin_activity_days: 14
+          plugin_activity_filter: all
 
-          # --- lines of code / commits habits ---
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          # ── Most-used languages / recent coding habits (this was erroring)
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15      # prevents timeout w/ 100+ repos
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_ignored: html, css, jupyter notebook
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
 
-          # --- theme to match your dark GitHub profile ---
-          config_timezone: Asia/Kolkata
+          # ── Misc
+          plugin_achievements: no    # optional, can add later once base is stable

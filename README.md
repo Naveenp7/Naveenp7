@@ -8,6 +8,12 @@
   <a href="https://instagram.com/_navee.n._"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" /></a>
 </p>
 
+<p align="center">
+<img src="./github-metrics.svg" alt="Naveen's GitHub contribution calendar and stats" width="100%"/>
+</p>
+
+<p align="center"><sub>📅 Auto-updated daily via GitHub Actions (<a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>)</sub></p>
+
 ---
 
 ### 🧭 How I think about my work
@@ -18,24 +24,25 @@ I don't just write ML code — I design the **architecture around the problem**:
 - 🎯 **Full ML lifecycle** — data → embeddings/features → training/orchestration → evaluation → deployment, end to end.
 - 💸 **Cost-aware by default** — I default to free-tier, open-weight, and efficient architectures unless there's a real reason not to.
 - 🏆 **2× Hackathon Prizewinner** — shipped full products from zero in 30-hour sprints, twice, under real judging pressure.
+- 🧑‍🏫 **Taught what I know** — ran a hands-on LLM-tooling workshop for 20+ junior developers, not just built solo.
 
 ---
 
 ### 🧩 Architecture Highlights
 
-**Cost-Efficient RAG System** — designed a retrieval pipeline (ChromaDB + LangChain + HuggingFace embeddings + Groq LLaMA-3) built explicitly around minimizing per-query cost without sacrificing retrieval quality — not just "a RAG demo," but a cost model for one.
+**Cost-Efficient RAG System** — a retrieval pipeline (ChromaDB + LangChain + HuggingFace embeddings + Groq LLaMA-3) designed explicitly around minimizing per-query cost without sacrificing retrieval quality — not just "a RAG demo," but a cost model for one.
 🔗 [github.com/Naveenp7/Cost-Efficient-RAG](https://github.com/Naveenp7/Cost-Efficient-RAG)
 
-**LLM-as-Judge Evaluation Pipeline** — architected an automated evaluation system with explicit bias mitigation for position bias, verbosity bias, and sycophancy — the kind of infrastructure that makes LLM outputs trustworthy enough to ship.
+**LLM-as-Judge Evaluation Pipeline** — an automated evaluation system with explicit bias mitigation for position bias, verbosity bias, and sycophancy — the kind of infrastructure that makes LLM outputs trustworthy enough to ship.
 🔗 [github.com/Naveenp7/llm-judge](https://github.com/Naveenp7/llm-judge)
 
 **Movie Seat Manager** — a high-concurrency booking backend (.NET 8, PostgreSQL, Redis) solving double-booking with distributed locking, idempotency keys, and ACID-compliant transactions. Systems design that generalizes directly to e-commerce and SaaS at scale.
-🔗 [github.com/Naveenp7/Movie-Seat-Manager](https://github.com/Naveenp7)
+🔗 [github.com/Naveenp7/Movie-Seat-Manager](https://github.com/Naveenp7/Movie-Seat-Manager)
 
 **Enterprise RAG Knowledge Assistant** — end-to-end document Q&A pipeline (LangChain, ChromaDB, Sentence Transformers, FastAPI) covering chunking, embedding, retrieval, and prompt orchestration as a deployable service, not a notebook.
 
 **Crowd Detection & Density Estimation** — real-time YOLO-based video analytics for public-safety and smart-city use cases, with configurable alerting — built for production constraints, not just accuracy on a benchmark.
-🔗 [github.com/Naveenp7/Crowd-Detection](https://github.com/Naveenp7)
+🔗 [github.com/Naveenp7/Crowd-Detection](https://github.com/Naveenp7/Crowd-Detection)
 
 **AI Resume Screener** — BERT-embedding-based semantic matching engine ranking candidates against job descriptions, with a full NLP pipeline for PDF parsing, NER, and skill extraction.
 
@@ -77,16 +84,6 @@ I don't just write ML code — I design the **architecture around the problem**:
 - 🥉 **3rd Prize — KOTECH Tech Hackathon** (July 2025), Qismat Foundation × Kottakkal Municipality.
 - 🎓 **Workshop Facilitator (ADTEC Program)** — led a hands-on AI coding workshop for 20+ junior developers on LLM tooling, prompt engineering, and AI-assisted dev workflows.
 - ☁️ **Google Cloud Skill Badges** — Docker, Kubernetes, IAM, Cloud Storage, Monitoring; Compute Engine fundamentals.
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-<img src="./github-metrics.svg" alt="Naveen's GitHub metrics" />
-</p>
-
-<sub>Auto-generated daily via GitHub Actions (<a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>) — no third-party uptime dependency.</sub>
 
 ---
 

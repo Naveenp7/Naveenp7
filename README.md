@@ -4,12 +4,14 @@
 <!-- ========================================================= -->
 
 <div align="center">
+
 <img
-  src="./profile-cover.svg"
+  src="./naveen-github-profile-banner.svg"
   alt="Naveen — AI/ML Engineer & Solutions Architect"
   width="100%"
 />
-<br/>
+
+</div>
 
 <div align="center">
 

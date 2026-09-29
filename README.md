@@ -1,45 +1,37 @@
-
-<!-- ========================================================= -->
-<!--                       HERO SECTION                        -->
-<!-- ========================================================= -->
-
 <div align="center">
 
-<img
-  src="./naveen-github-profile-banner-compact.svg"
-  alt="Naveen — AI/ML Engineer & Solutions Architect"
-  width="100%"
-/>
+<h1>👋 Hi, I'm Naveen</h1>
 
-</div>
+AI Engineer @ <a href="https://optigoai.com">Optigo AI</a>
 
-<div align="center">
-
-
+<p>
+  <strong>Building AI-powered products • Machine Learning • LLMs • Intelligent Systems</strong>
+</p>
 
 <br/>
 
 <p>
   <a href="https://linkedin.com/in/naveen-p-42bb1a256">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-
+  &nbsp;
   <a href="https://naveenp7.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
   </a>
-
+  &nbsp;
   <a href="https://github.com/Naveenp7">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-
+  &nbsp;
   <a href="mailto:naveensanthosh830@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
+<br/>
+
 </div>
 
-<br/>
 
 ## 📊 GitHub Activity
 

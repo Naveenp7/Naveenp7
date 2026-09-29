@@ -9,21 +9,33 @@
 
 <br/>
 
-<a href="https://linkedin.com/in/naveen-p-42bb1a256">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://naveenp7.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white"/>
-</a>
-&nbsp;
-<a href="mailto:naveensanthosh830@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://github.com/Naveenp7">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-</a>
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/profile-cover.svg"
+  alt="Naveen — AI/ML Engineer & Solutions Architect"
+  width="100%"
+/>
+
+<br/>
+
+<p>
+  <a href="https://linkedin.com/in/naveen-p-42bb1a256">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://naveenp7.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white"/>
+  </a>
+
+  <a href="https://github.com/Naveenp7">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="mailto:naveensanthosh830@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 </div>
 

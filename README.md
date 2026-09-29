@@ -40,6 +40,20 @@
 
 <br/>
 
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/github-activity.svg"
+  alt="GitHub contribution activity"
+  width="850"
+/>
+
+<sub>Contribution activity · updated automatically</sub>
+
+</div>
+
 <!-- ========================================================= -->
 <!--                       INTRODUCTION                        -->
 <!-- ========================================================= -->
@@ -244,19 +258,7 @@ Security, failure modes and maintainability matter.
 
 ---
 
-## 📊 GitHub Activity
 
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/github-activity.svg"
-  alt="GitHub contribution activity"
-  width="850"
-/>
-
-<sub>Contribution activity · updated automatically</sub>
-
-</div>
 
 ---
 

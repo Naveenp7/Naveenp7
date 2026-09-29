@@ -5,17 +5,16 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/profile-cover.svg" width="100%" alt="Naveen - AI/ML Engineer & Solutions Architect"/>
-
-<br/>
-
-<div align="center">
-
 <img
   src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/profile-cover.svg"
   alt="Naveen — AI/ML Engineer & Solutions Architect"
   width="100%"
 />
+<br/>
+
+<div align="center">
+
+
 
 <br/>
 

@@ -248,11 +248,13 @@ Security, failure modes and maintainability matter.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/github-activity.svg" width="100%" alt="GitHub contribution activity"/>
+<img
+  src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/github-activity.svg"
+  alt="GitHub contribution activity"
+  width="850"
+/>
 
-<br/>
-
-<sub>Updated automatically through GitHub Actions</sub>
+<sub>Contribution activity · updated automatically</sub>
 
 </div>
 

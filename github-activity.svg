@@ -1,0 +1,41 @@
+name: GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+
+  workflow_dispatch:
+
+jobs:
+
+  metrics:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+
+      - name: Generate GitHub activity
+        uses: lowlighter/metrics@latest
+
+        with:
+
+          filename: github-activity.svg
+
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          base: header
+
+          config_timezone: Asia/Kolkata
+
+          config_theme: github-dark
+
+          config_padding: 10
+
+          config_order: isocalendar
+
+          plugin_isocalendar: yes
+
+          plugin_isocalendar_duration: half-year

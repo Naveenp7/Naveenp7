@@ -4,9 +4,8 @@
 <!-- ========================================================= -->
 
 <div align="center">
-
 <img
-  src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/profile-cover.svg"
+  src="./profile-cover.svg"
   alt="Naveen — AI/ML Engineer & Solutions Architect"
   width="100%"
 />

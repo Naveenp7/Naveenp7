@@ -6,7 +6,7 @@
 <div align="center">
 
 <img
-  src="./naveen-github-profile-banner-compact.svg"
+  src="./profile.png"
   alt="Naveen — AI/ML Engineer & Solutions Architect"
   width="100%"
 />

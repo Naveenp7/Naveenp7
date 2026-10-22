@@ -1,14 +1,15 @@
+
 <div align="center">
 
-<h1>👋 Hi, I'm Naveen</h1>
-
-AI Engineer @ <a href="https://optigoai.com">Optigo AI</a>
-
-<p>
-  <strong>Building AI-powered products • Machine Learning • LLMs • Intelligent Systems</strong>
-</p>
+<img src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/assets/banner.png" alt="Naveen — AI Engineer, ML & LLM Systems Builder" width="100%" />
 
 <br/>
+
+# 👋 Hi, I'm Naveen
+
+### AI Engineer @ [Optigo AI](https://optigoai.com)
+
+**Building AI-powered products • Machine Learning • LLMs • Intelligent Systems**
 
 <p>
   <a href="https://linkedin.com/in/naveen-p-42bb1a256">
@@ -28,20 +29,15 @@ AI Engineer @ <a href="https://optigoai.com">Optigo AI</a>
   </a>
 </p>
 
-<br/>
-
 </div>
 
+---
 
 ## 📊 GitHub Activity
 
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/github-activity.svg"
-  alt="GitHub contribution activity"
-  width="850"
-/>
+<img src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/github-activity.svg" alt="GitHub contribution activity" width="850"/>
 
 <sub>Contribution activity · updated automatically</sub>
 
@@ -59,17 +55,17 @@ I work across the stack — from **ML/LLM pipelines and retrieval systems** to *
 
 ```text
 AI / ML
-   ↓
+  ↓
 LLMs · RAG · Computer Vision · NLP · Evaluation
-   ↓
+  ↓
 Backend Systems
-   ↓
+  ↓
 FastAPI · APIs · Databases · Redis · Distributed Systems
-   ↓
+  ↓
 Production
-   ↓
+  ↓
 Docker · GCP · Vercel · CI/CD · Cost Optimization
-````
+```
 
 > I care less about using the fanciest technology and more about building the **right-sized system for the problem**.
 
@@ -83,29 +79,28 @@ Docker · GCP · Vercel · CI/CD · Cost Optimization
 
 ### 🤖 AI & LLM Systems
 
-* RAG pipelines
-* LLM evaluation
-* Agentic workflows
-* Prompt engineering
-* Semantic search
-* NLP systems
-* Computer vision
-* AI-powered SaaS
+- RAG pipelines
+- LLM evaluation
+- Agentic workflows
+- Prompt engineering
+- Semantic search
+- NLP systems
+- Computer vision
+- AI-powered SaaS
 
 </td>
-
 <td width="50%" valign="top">
 
 ### 🏗️ Production Systems
 
-* REST APIs
-* Distributed systems
-* High-concurrency backends
-* Authentication & authorization
-* PostgreSQL / Redis architectures
-* Cloud deployments
-* Cost-efficient infrastructure
-* Scalable application design
+- REST APIs
+- Distributed systems
+- High-concurrency backends
+- Authentication & authorization
+- PostgreSQL / Redis architectures
+- Cloud deployments
+- Cost-efficient infrastructure
+- Scalable application design
 
 </td>
 </tr>
@@ -176,7 +171,6 @@ End-to-end document intelligence pipeline covering document processing, chunking
 Architecture before implementation.
 
 </td>
-
 <td align="center" width="25%">
 
 ### ⚡
@@ -186,7 +180,6 @@ Architecture before implementation.
 Latency and reliability matter.
 
 </td>
-
 <td align="center" width="25%">
 
 ### 💸
@@ -196,7 +189,6 @@ Latency and reliability matter.
 Efficient systems beat unnecessary complexity.
 
 </td>
-
 <td align="center" width="25%">
 
 ### 🔐
@@ -216,13 +208,13 @@ Security, failure modes and maintainability matter.
 ### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,dart,cs,sql" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,dart,cs,sql" alt="Programming languages"/>
 </p>
 
 ### AI / Machine Learning
 
 <p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="Machine learning technologies"/>
 </p>
 
 `Scikit-learn` · `XGBoost` · `HuggingFace` · `Transformers` · `LangChain` · `OpenCV` · `spaCy` · `NLTK`
@@ -234,24 +226,20 @@ Security, failure modes and maintainability matter.
 ### Backend & Data
 
 <p>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,dotnet,postgres,redis,firebase,sqlite" />
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,dotnet,postgres,redis,firebase,sqlite" alt="Backend and database technologies"/>
 </p>
 
 ### Frontend & Mobile
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,flutter" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,flutter" alt="Frontend and mobile technologies"/>
 </p>
 
 ### Cloud & DevOps
 
 <p>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,vercel,git,github,githubactions" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,gcp,vercel,git,github,githubactions" alt="Cloud and DevOps technologies"/>
 </p>
-
----
-
-
 
 ---
 
@@ -259,30 +247,33 @@ Security, failure modes and maintainability matter.
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
 🥈 **2nd Prize — MATRIX Hackathon**
+
 30-hour hackathon · MES College of Engineering
 
 </td>
-<td>
+<td width="50%" valign="top">
 
 🥉 **3rd Prize — KOTECH Tech Hackathon**
+
 Qismat Foundation × Kottakkal Municipality
 
 </td>
 </tr>
-
 <tr>
-<td>
+<td width="50%" valign="top">
 
 🎓 **Workshop Facilitator**
+
 AI / LLM tooling workshop for 20+ developers
 
 </td>
-<td>
+<td width="50%" valign="top">
 
 ☁️ **Google Cloud Skill Badges**
+
 Docker · Kubernetes · IAM · Storage · Monitoring
 
 </td>
@@ -310,15 +301,13 @@ If you're building something interesting around **AI, ML, LLMs, or scalable soft
 <br/>
 
 <a href="https://naveenp7.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
-
 <a href="https://linkedin.com/in/naveen-p-42bb1a256">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
 <a href="mailto:naveensanthosh830@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 <br/><br/>

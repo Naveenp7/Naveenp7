@@ -290,9 +290,8 @@ I deploy applications to the cloud so they're live, scalable and available 24/7 
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Naveenp7&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=a78bfa&icon_color=38bdf8&count_private=true" height="165" alt="GitHub stats"/>
 <img src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="GitHub stats"/>
-
+<img src="https://streak-stats.demolab.com?user=Naveenp7&hide_border=true&theme=tokyonight&background=1a1b27&ring=a78bfa&fire=38bdf8&currStreakLabel=a78bfa" height="170" alt="GitHub streak"/>
 <img src="https://raw.githubusercontent.com/Naveenp7/Naveenp7/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Top languages"/>
 
 <sub>Updated automatically</sub>

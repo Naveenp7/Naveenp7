@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Featured projects"><title>Featured projects</title><style>
+.s{font-family:'Instrument Serif','Playfair Display',Georgia,'Times New Roman',serif} .m{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace} .p{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.i{font-style:italic} .b{font-weight:600}
+</style><defs>
+<filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .25  0 0 0 0 .25  0 0 0 0 .25  0 0 0 .10 0"/></filter>
+</defs><clipPath id="c"><rect width="900" height="150" rx="22"/></clipPath><rect width="900" height="150" rx="22" fill="#F2F2F0"/><g clip-path="url(#c)"><rect width="900" height="150" filter="url(#n)"/></g><rect x="44" y="44" width="11" height="11" rx="2.5" fill="#FFC81E"/><text x="64" y="54" class="m" font-size="12" fill="#6B6B66" letter-spacing="2" >FEATURED PROJECTS</text><text x="856" y="54" class="m" font-size="12" fill="#6B6B66" text-anchor="end" letter-spacing="2" >SELECTED WORK</text><text x="44" y="112" class="s" font-size="50" fill="#111111">Things I&#x27;ve <tspan class="i" fill="#FFC81E">built</tspan></text></svg>
